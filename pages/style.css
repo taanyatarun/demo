@@ -70,3 +70,15 @@ header{
   text-align: center;
   font-style: italic;
 }
+
+.socials{
+  display:flex;
+  align-content: center;
+  align-items: center;
+  padding-left: 4em;
+}
+
+.social-container{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
