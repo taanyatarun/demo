@@ -5,6 +5,7 @@ header{
     box-shadow: 2px 2px 5px rgba(66, 65, 65, 0.3);
     padding-left: 0px;
 }
+
 .responsive-cell-block {
   min-height: 75px;
 }
