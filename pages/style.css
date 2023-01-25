@@ -90,3 +90,12 @@ header{
 .testi{
   padding: 2em 3em
 }
+
+.blog-card{
+  margin-bottom: 3em;
+}
+
+.blog-container{
+  display: flex;
+  justify-content: space-evenly;
+}
