@@ -103,3 +103,39 @@ header{
   display: flex;
   justify-content: space-evenly;
 }
+
+ .contact-form{
+  background-color: rgba(144, 144, 144, 0.274);
+   text-align: center;
+   width: 450px;
+   margin: auto;
+   box-shadow: 10px 10px 5px #aaaaaa;
+   padding: 20px 20px;
+ }
+
+ .info {
+   text-align: left;
+   padding-bottom: 10px;
+   font-weight: 500;
+   /* color: orange; */
+ }
+
+ input,
+ select option,
+ select {
+   width: 100%;
+   padding: 1em;
+   line-height: 1.4;
+   background-color: #f9f9f9;
+   border: 1px solid #e5e5e5;
+   border-radius: 3px;
+ }
+
+ .f-btn {
+  margin-left: 150px;
+   height: 35px;
+   width: 100px;
+   padding: 5px 10px;
+   background-color: #0c0c0c;
+   color: #f9f9f9;
+ }
