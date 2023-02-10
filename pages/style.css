@@ -103,7 +103,10 @@ header{
   display: flex;
   justify-content: space-evenly;
 }
-
+.form{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
  .contact-form{
   background-color: rgba(144, 144, 144, 0.274);
    text-align: center;
@@ -138,4 +141,27 @@ header{
    padding: 5px 10px;
    background-color: #0c0c0c;
    color: #f9f9f9;
+ }
+ .banner-container{
+  position: relative;
+    text-align: center;
+    color: black;
+ }
+
+ .centered{
+  font-weight: 600;
+  font-size: x-large;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .centered-p{
+  position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .banner-img{
+    opacity: 0.3;
  }
