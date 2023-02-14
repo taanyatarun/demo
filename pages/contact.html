@@ -48,31 +48,41 @@
     </div>
 
     <!-- Contact form -->
-
-    <div class="form">
-    <form class="contact-form">
-        <div class="info">
-            <div>First Name*:</div>
-            <div><input type="text" name="first_name" placeholder="Enter your First Name"></div>
-        </div>
-        <div class="info">
-            <div>Last Name*:</div>
-            <div><input type="text" name="last_name" placeholder="Enter your Last Name"></div>
-        </div>
-        <div class="info">
-            <div>Email ID*:</div>
-            <div><input type="email" name="email" placeholder="Enter your email"></div>
-        </div>
-        <div class="info">
-            <div>Leave us a message:</div>
-            <div class="messg">
-                <textarea placeholder="Type your message here" rows="8" cols="50"></textarea>
+<div class="c_container">
+    <div class="wrapper">
+        <div class="contact_form">
+            <div class="title">
+                Leave us a message!
             </div>
+
+            <form>
+                <div class="form_wrap">
+
+                    <div class="input_wrap">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname">
+                    </div>
+                    <div class="input_wrap">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname">
+                    </div>
+                    <div class="input_wrap">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="input_wrap">
+                        <label for="msg">Message </label>
+                        <!-- <div class="text_area"> -->
+                            <textarea placeholder="Type your message here" rows="9" cols="42"></textarea>
+                        <!-- </div> -->
+                    </div>
+                    <input type="submit" value="Submit" class="submit_btn">
+                </div>
         </div>
-        <div class="f-btn">
-        <button type="submit" value="Submit" class="form-btn">Submit</button></div>
-    </form>
+        </form>
     </div>
+</div>
+</div>
                        <!--Contact form end -->
 
     <footer>
