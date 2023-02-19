@@ -51,15 +51,18 @@ header{
 }
 
 .product-image{
+  background: linear-gradient(rgb(47, 47, 47), rgb(255, 255, 255));
   position: relative;
   width: 100%;
-  height: 350px;
+  height: 20rem;
   overflow: hidden;
+  border-radius: 6em 6em 0 0;
 }
 
 .product-thumb{
+  margin-top: 2rem;
   width: 100%;
-  height: 350px;
+  height: 21rem;
   object-fit: cover;
 }
 
@@ -158,7 +161,7 @@ header{
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .contact_form {
-  margin: 0;
+  margin-bottom: 4em;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
