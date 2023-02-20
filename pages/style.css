@@ -51,12 +51,16 @@ header{
 }
 
 .product-image{
-  background: linear-gradient(rgb(47, 47, 47), rgb(255, 255, 255));
+  background: linear-gradient(rgb(84, 84, 84), rgb(255, 255, 255));
   position: relative;
   width: 100%;
   height: 20rem;
   overflow: hidden;
   border-radius: 6em 6em 0 0;
+}
+
+.product-image:hover{
+  background: linear-gradient(rgb(57, 57, 57), rgb(255, 255, 255));
 }
 
 .product-thumb{
@@ -91,15 +95,30 @@ header{
 }
 
 .event-caraousel{
-  padding: 2em 5em;
+  padding: 2em 5em;;
 }
 
 .testi{
   padding: 2em 3em
 }
 
+.mb-12{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px 7px;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.mb-12:hover{
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 20px 7px;
+}
+
 .blog-card{
+  border-radius: 7em;
   margin-bottom: 3em;
+}
+
+.blog-card:hover{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 20px 7px;
 }
 
 .blog-container{
@@ -246,7 +265,17 @@ input[type="email"] {
   cursor: pointer;
 }
 
-.form_wrap .submit_btn:hover {
+/* .form_wrap .submit_btn:hover {
   background: #808080;
+} */
+
+.form_wrap .submit_btn{
+  background: #343434;
+  color: white;
+  border-radius: 4em;
+}
+
+.form_wrap .submit_btn:hover{
+  background: #414141;
 }
 /* form css end */

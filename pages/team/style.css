@@ -72,6 +72,11 @@ header{
   padding-right: 25px;
   padding-bottom: 30px;
   padding-left: 25px;
+  border-radius: 2em;
+}
+
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 20px 7px;
 }
 
 .card-container {
